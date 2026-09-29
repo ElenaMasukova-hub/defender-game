@@ -17,6 +17,15 @@
   "author": "Elena Masyukova",
   "type": "commonjs",
   "main": "index.js",
-  "scripts": {}
+  "scripts": {
+    "build": "babel src -d dist"
+  },
+  "dependencies": {
+    "core-js": "^3.50.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.29.7",
+    "@babel/core": "^7.29.7",
+    "@babel/preset-env": "^7.29.7"
   }
 }
